@@ -1,0 +1,210 @@
+html,body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    position: relative;
+    vertical-align: baseline;
+    background:#350530 ;
+}
+
+
+
+
+.about,.compétences,
+.etudes,.langues,
+.contact,.experiences{
+    padding: 40px;
+    min-height: 330px;
+
+}
+
+.etudes,.langues,.contact,.experiences,.compétences,.about{
+    margin-top: 27px;
+}
+
+header{
+    text-align: center;
+    min-height: 400px;
+    overflow: hidden;
+    position:relative;
+    padding-top: 160px;
+    padding-bottom: 140px;
+    
+}
+
+header img{
+    
+    display: inline-block;
+    border: 6px solid white;
+    padding: 5px;
+
+
+}
+.img{
+    border-radius: 50%;
+    height:250px;
+    width: 250px;
+    
+   
+   
+}
+
+
+h1{
+    color: white;
+}
+
+header h2{
+    padding-top: 40px;
+    
+}
+
+.about{
+    background: white;
+    display: inline-block;
+     
+}
+
+.about p{
+    margin-left: 50px;
+}
+
+
+
+.compétences {
+    background:#3366CC ;
+    color: white;
+    
+}
+
+.compétences strong {
+    display: inline-block;
+    font-weight: normal;
+    padding-bottom: 6px;
+
+}
+
+.etudes{
+    background:#3366CC ;
+    color:white;
+
+}
+.etudes h4{
+    margin-left: 25px;
+}
+
+.etudes p{
+    margin-left: 50px;
+}
+
+.etudes{
+    padding-bottom: 14px;
+    
+}
+
+
+
+
+.langues{
+    background: white;
+    margin-top: 27px;
+    padding-bottom: 14px;
+    
+    
+    
+}
+
+.langues ul{
+    padding: 10px;
+    margin-left: 50px;
+}
+.langues ul li{
+    padding-bottom: 6px;
+}
+
+.contact{
+    background: white;
+   
+}
+.contact p{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.experiences{
+    background: #3366CC;
+    color: white;
+    
+}
+.experiences h4,.experiences p{
+    margin-left: 50px;
+}
+
+
+
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+   
+    min-height: 100px;
+    padding: 20px 50px;
+    display:flex ;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+}  
+footer .social_icon,
+footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 ;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+footer .social_icon li,
+footer .menu li
+{
+    list-style: none;
+}
+
+footer .social_icon li a,
+footer .menu li a
+{
+    font-size: 2em;
+    color:white;
+    margin:0 10px;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+footer .social_icon li a:hover{
+    transform: translateY(-10px)
+}
+
+footer .menu li a
+{
+    font-size: 1.2em;
+    color:white;
+    margin:0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+
+}
+footer .menu li a:hover{
+    opacity: 3;
+
+}
+
+
+
